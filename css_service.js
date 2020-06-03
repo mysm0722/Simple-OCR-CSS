@@ -6,8 +6,8 @@ var request = require('request');
 
 /* Definition of Constant Variable */
 const CCS_URL = "https://naveropenapi.apigw.ntruss.com/voice/v1/tts";
-const MY_CCS_CLIENT_ID = "7u57invtu8";
-const MY_CCS_CLIENT_SECRET = "UG8yttNa5ALcWwVd5bS03P87w1qDhyDGA0Nw4WLF";
+const MY_CCS_CLIENT_ID = "{YOUR_CLIENT_ID}";
+const MY_CCS_CLIENT_SECRET = "{YOUR_CLIENT_SECRET}";
 
 /* Express URL Call & Work Response Data */
 app.get('/css', function (req, res) {
