@@ -3,8 +3,8 @@ const axios = require('axios');
 const fs = require('fs');
 
 /* Definition of Constant Variable */
-const MY_OCR_API_URL = "https://a2504fea99d8443fb019dcc8313ecb3d.apigw.ntruss.com/custom/v1/1999/1c684279a493b2aee87e524b9b0e3a1d67225f945418e4ec01bde974dcd023ab/general";
-const MY_OCR_SECRET_KEY = "V0ZJaHFVVkhKT2dLTGp5dUhmRWlRa0tjbVlCbkttV0E=";
+const MY_OCR_API_URL = "{YOUR_OCR_URL}";
+const MY_OCR_SECRET_KEY = "{YOUR_OCR_SECRET}";
 
 /* Definition of Headers, Required Variable */
 let config = {
